@@ -94,7 +94,7 @@ export function App() {
         if(response.message !== undefined) {
           alert(response.message)
         } else {
-          alert("Produto alterado com sucesso!")
+          alert("Produto alterado com sucesso !")
        
           let vetorTemp = [...produtos]
           let indice = vetorTemp.findIndex((p)=> {
